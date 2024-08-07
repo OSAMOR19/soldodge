@@ -1,70 +1,65 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   const footerStyle = {
     background: "linear-gradient(90deg, #0E0D13 0%, #121212 100%)",
     color: "#ffffff",
-    paddingTop: "40px",
-    paddingBottom: "40px",
+    padding: "30px 0",
+    borderTop: "1px solid rgba(255, 255, 255, 0.1)",
   };
 
-  const textCenter = {
-    textAlign: "start",
+  const logoStyle = {
+    fontFamily: "'Poppins', sans-serif",
+    fontWeight: "bold",
+    fontSize: "2rem",
+    background: "linear-gradient(45deg, #FF6B6B, #4ECDC4)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    marginBottom: "20px",
   };
 
-  const linkStyle = {
+  const socialLinkStyle = {
     color: "#ffffff",
+    fontSize: "1.5rem",
+    marginRight: "20px",
     textDecoration: "none",
-    display: "inline-block",
-    marginBottom: "15px",
+    transition: "color 0.3s ease",
   };
 
-  const linkColumnStyle = {
-    display: "flex",
-    flexDirection: "column",
-  };
-
-  const curateLearnStyle = {
-    color: "#FF7223",
+  const copyrightStyle = {
+    fontSize: "0.9rem",
+    opacity: 0.7,
   };
 
   return (
     <footer style={footerStyle}>
       <Container>
-        <Row>
-          <Col lg={4}>
-            <div>
-              <h2 style={curateLearnStyle}>CurateLearn</h2>
-              <p style={textCenter}>© 2024. CurateLearn All rights reserved.</p>
-            </div>
+        <Row className="align-items-center">
+          <Col lg={6} className="text-center text-lg-start mb-4 mb-lg-0">
+            <h2 style={logoStyle}>SOLADODGE</h2>
+            <p style={copyrightStyle}>© 2024 SOLADODGE. All rights reserved.</p>
           </Col>
-          <Col lg={8}>
-            <Row>
-              <Col sm={6}>
-                <div style={linkColumnStyle}>
-                  {/* <a href="#home" style={linkStyle}>Community</a> */}
-                  <a href="#portfolio" style={linkStyle}>Contact us</a>
-                  <a href="#contact" style={linkStyle}>curatelearn@aceembedded.io</a>
-                  <a href="#faq" style={linkStyle}>+234-805-123-0116</a>
-                
-                </div>
-              </Col>
-              <Col sm={6}>
-                <div style={linkColumnStyle}>
-                  <a href="#about" style={linkStyle}>FAQs</a>
-                  {/* <a href="#blog" style={linkStyle}>Blog</a> */}
-                  <a href="https://ng.linkedin.com/in/daniel-ogunlolu-falcon" style={linkStyle} target="_blank" rel="noopener noreferrer">Meet the Founder</a>
-                  {/* <a href="#testimonials" style={linkStyle}>Privacy Policy</a> */}
-                 
-                </div>
-              </Col>
-            </Row>
+          <Col lg={6} className="text-center text-lg-end">
+            <a href="https://twitter.com/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              &#128038; {/* Bird emoji for Twitter */}
+            </a>
+            <a href="https://discord.gg/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              &#128172; {/* Speech balloon emoji for Discord */}
+            </a>
+            <a href="https://t.me/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              &#9993; {/* Envelope emoji for Telegram */}
+            </a>
           </Col>
         </Row>
       </Container>
+      <style jsx>{`
+        @media (hover: hover) {
+          a:hover {
+            color: #4ECDC4 !important;
+          }
+        }
+      `}</style>
     </footer>
   );
 };

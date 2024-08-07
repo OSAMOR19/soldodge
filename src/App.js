@@ -5,7 +5,6 @@ import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
-import Contact from './Components/contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <FAQ/>
-      <Contact/>
+      
       <Footer/>
     </React.Fragment>
   );

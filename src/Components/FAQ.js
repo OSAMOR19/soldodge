@@ -33,9 +33,9 @@ const Services = () => {
                   <div className="text-center pt-5 text-dark mb-5">
                     <h3 className="fw-bold">Frequently Asked Questions</h3>
                     <p className="mb-4 text-muted ff-secondary">
-                      Our mission is to empower self-learners by creating a
-                      digital learning environment that enhances their
-                      educational experience.
+                      SolaDoge is poised to capture the hearts of Degenerates on
+                      Solana with it's community-driven approach as well as it's
+                      adorable dog-theme.
                     </p>
                   </div>
                 </Col>

@@ -11,11 +11,11 @@ import {
 import NavBar from "./Nav";
 
 import img1 from "../Images/soladodgeblue.jpg";
-import img2 from "../Images/dodgelogo.png";
+import img2 from "../Images/dodge2.jpeg";
 import img3 from "../Images/integrateimage.svg";
 import img4 from "../Images/notes.png";
 import img6 from "../Images/teacher.svg";
-import img5 from "../Images/curriculumpic.png";
+import img5 from "../Images/solthrone.jpg";
 
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
@@ -29,7 +29,7 @@ const Portfolio = () => {
   };
 
   const buttonStyle = {
-    background: "#FF7223",
+    background: "#FFD700",
     border: "none",
     transition: "background-color 0.3s ease-in-out",
   };
@@ -80,29 +80,17 @@ const Portfolio = () => {
                             className="card-title mt-3 fw-bold mb-2"
                             style={{ fontFamily: "Poppins, sans-serif" }}
                           >
-                            Practice Mock Interview
+                            INTRODUCING SOLADOGE.
                           </h4>
                           <h6
                             className="card-text mb-3 text-muted"
                             style={{ fontFamily: "Mulish, sans-serif" }}
                           >
-                            Refine your skills, build confidence, and prepare
-                            for real-world scenarios with our comprehensive
-                            practice mock interviews..
-                          </h6>
-                          <h4
-                            className="card-title mt-5 fw-semibold mb-2"
-                            style={{ fontFamily: "Poppins, sans-serif" }}
-                          >
-                            Interact with Resources
-                          </h4>
-                          <h6
-                            className="card-text mb-1 text-muted"
-                            style={{ fontFamily: "Mulish, sans-serif" }}
-                          >
-                            Effortlessly chat with resources by utilizing the @
-                            feature to tag them, ensuring swift access during
-                            your interactions with the AI mentor.
+                            In the ever evolving world of Crypto Currency, meme
+                            tokens have emerged as a force to reckon with.
+                            SolaDoge, a state of the art meme token on the
+                            Solana Blockchain is the latest addition to this
+                            trend.
                           </h6>
                         </div>
                       </CardBody>
@@ -129,20 +117,15 @@ const Portfolio = () => {
                 >
                   <CardBody className="d-flex flex-column">
                     <div className="p-3">
-                      <Button
+                      {/* <Button
                         className="rounded-pill"
                         style={buttonStyle}
                         onMouseEnter={(e) => handleButtonHover(e, true)}
                         onMouseLeave={(e) => handleButtonHover(e, false)}
                       >
                         Personalization
-                      </Button>
-                      <h4
-                        className="card-title mt-3 fw-bold mb-2"
-                        style={{ fontFamily: "Poppins, sans-serif" }}
-                      >
-                        Customise your AI Mentor
-                      </h4>
+                      </Button> */}
+                      
                       <p
                         className="card-text mb-3 text-muted"
                         style={{ fontFamily: "Mulish, sans-serif" }}
@@ -175,28 +158,21 @@ const Portfolio = () => {
                 >
                   <CardBody className="d-flex flex-column">
                     <div className="p-3">
-                      <Button
+                      {/* <Button
                         className="rounded-pill"
                         style={buttonStyle}
                         onMouseEnter={(e) => handleButtonHover(e, true)}
                         onMouseLeave={(e) => handleButtonHover(e, false)}
                       >
                         Personalization
-                      </Button>
-                      <h4
-                        className="card-title mt-3 fw-bold mb-2"
-                        style={{ fontFamily: "Poppins, sans-serif" }}
-                      >
-                        Personalized Curriculum
-                      </h4>
+                      </Button> */}
                       <p
                         className="card-text mb-3 text-muted"
                         style={{ fontFamily: "Mulish, sans-serif" }}
                       >
-                        Concerned about which resource to engage with first?
-                        Rest assured, we will provide a structured curriculum
-                        for each space you create, guiding you on the optimal
-                        sequence to access the curated resources.
+                        SolaDoge is poised to capture the hearts of Degenerates
+                        on Solana with it's community-driven approach as well as
+                        it's adorable dog-theme.
                       </p>
                     </div>
                     <div className="mt-auto">
@@ -222,14 +198,14 @@ const Portfolio = () => {
                 >
                   <CardBody className="d-flex flex-column">
                     <div className="p-3">
-                      <Button
+                      {/* <Button
                         className="rounded-pill"
                         style={buttonStyle}
                         onMouseEnter={(e) => handleButtonHover(e, true)}
                         onMouseLeave={(e) => handleButtonHover(e, false)}
                       >
                         Notepad
-                      </Button>
+                      </Button> */}
                       <h3
                         className="card-title mt-3 fw-bold mb-2"
                         style={{ fontFamily: "Poppins, sans-serif" }}
@@ -269,14 +245,14 @@ const Portfolio = () => {
                 >
                   <CardBody className="d-flex flex-column">
                     <div className="p-3">
-                      <Button
+                      {/* <Button
                         className="rounded-pill"
                         style={buttonStyle}
                         onMouseEnter={(e) => handleButtonHover(e, true)}
                         onMouseLeave={(e) => handleButtonHover(e, false)}
                       >
                         Notepad
-                      </Button>
+                      </Button> */}
                       <h3
                         className="card-title mt-3 fw-bold mb-2"
                         style={{ fontFamily: "Poppins, sans-serif" }}
