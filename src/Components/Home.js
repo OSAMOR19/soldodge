@@ -69,11 +69,11 @@ const Home = () => {
                   <Button
                     className="btn mb-3 btn-primary"
                     style={{ background: "#101010" }}
-                    onClick={() =>
-                      document
-                        .getElementById("submit")
-                        .scrollIntoView({ behavior: "smooth" })
-                    }
+                    // onClick={() =>
+                    //   document
+                    //     .getElementById("submit")
+                    //     .scrollIntoView({ behavior: "smooth" })
+                    // }
                   >
                     Join Waitlist{" "}
                     <i className="ri-arrow-right-line align-middle ms-1"></i>
@@ -81,15 +81,15 @@ const Home = () => {
                 </div>
                 <div className="glassmorphism-container">
                   <div className="glassmorphism-item">
-                    <h2>690k+</h2>
+                    <h2>20k+</h2>
                     <p>Holders</p>
                   </div>
                   <div className="glassmorphism-item">
-                    <h2>191</h2>
+                    <h2>30K+</h2>
                     <p>Interactions</p>
                   </div>
                   <div className="glassmorphism-item">
-                    <h2>27</h2>
+                    <h2>12</h2>
                     <p>Chains</p>
                   </div>
                 </div>

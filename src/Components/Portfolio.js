@@ -13,8 +13,8 @@ import NavBar from "./Nav";
 import img1 from "../Images/soladodgeblue.jpg";
 import img2 from "../Images/dodge2.jpeg";
 import img3 from "../Images/integrateimage.svg";
-import img4 from "../Images/notes.png";
-import img6 from "../Images/teacher.svg";
+import img4 from "../Images/solaelon.jpg";
+import img6 from "../Images/solaflyer.jpg";
 import img5 from "../Images/solthrone.jpg";
 
 const Portfolio = () => {
@@ -44,7 +44,7 @@ const Portfolio = () => {
   };
 
   const handleButtonHover = (e, enter) => {
-    e.currentTarget.style.backgroundColor = enter ? "#FF5500" : "#FF7223";
+    e.currentTarget.style.backgroundColor = enter ? "#FFA07A" : "#FF7223";
   };
 
   return (
@@ -52,7 +52,7 @@ const Portfolio = () => {
       <section
         id="portfolio"
         className="mt-4"
-        style={{ background: "#FFEADE" }}
+        style={{ background: "#FFA07A" }}
       >
         <Container>
           <Row className="justify-content-center gy-4">
@@ -125,7 +125,7 @@ const Portfolio = () => {
                       >
                         Personalization
                       </Button> */}
-                      
+
                       <p
                         className="card-text mb-3 text-muted"
                         style={{ fontFamily: "Mulish, sans-serif" }}
@@ -210,16 +210,15 @@ const Portfolio = () => {
                         className="card-title mt-3 fw-bold mb-2"
                         style={{ fontFamily: "Poppins, sans-serif" }}
                       >
-                        Take notes while learning
+                        INSPIRATION
                       </h3>
                       <p
                         className="card-text mb-3 text-muted"
                         style={{ fontFamily: "Mulish, sans-serif" }}
                       >
-                        This setup lets you jot down important points, ideas,
-                        and questions within your space, eliminating the need to
-                        switch tools. Keeping everything in one place helps you
-                        maintain focus and streamline your learning.
+                        SOLADOGE was inspired by a popular dog-themed meme token
+                        that did over 100,000% at ATH and $85Billion Market Cap.
+                        I'm talking about Dogecoin itself.
                       </p>
                     </div>
                     <div className="mt-auto">
@@ -257,17 +256,14 @@ const Portfolio = () => {
                         className="card-title mt-3 fw-bold mb-2"
                         style={{ fontFamily: "Poppins, sans-serif" }}
                       >
-                        Pin Resources for Quick Access
+                        MEME TOKEN
                       </h3>
                       <p
                         className="card-text mb-3 text-muted"
                         style={{ fontFamily: "Mulish, sans-serif" }}
                       >
-                        Pinning resources enhances your ability to quickly
-                        access crucial videos and PDFs, boosting study
-                        efficiency and focus. This feature ensures important
-                        materials are always at your fingertips, streamlining
-                        your learning process.
+                        SolaDoge is the meme token that is taking the Solana Ecosystem by Storm.
+
                       </p>
                     </div>
                     <div className="mt-auto">
@@ -283,7 +279,7 @@ const Portfolio = () => {
               </Fade>
             </Col>
 
-            <Col xs={12}>
+            {/* <Col xs={12}>
               <Fade in={open}>
                 <Card
                   className="rounded-5 card-animate mt-5 mb-4"
@@ -338,7 +334,7 @@ const Portfolio = () => {
                   </Row>
                 </Card>
               </Fade>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>

@@ -31,7 +31,9 @@ const Services = () => {
               <Row className="justify-content-center mt-5">
                 <Col lg={8}>
                   <div className="text-center pt-5 text-dark mb-5">
-                    <h3 className="fw-bold">Frequently Asked Questions</h3>
+                    <h3 className="fw-bold">
+                      woo-o-oof woo-o-oof The dog has finally been let out.
+                    </h3>
                     <p className="mb-4 text-muted ff-secondary">
                       SolaDoge is poised to capture the hearts of Degenerates on
                       Solana with it's community-driven approach as well as it's
@@ -41,7 +43,7 @@ const Services = () => {
                 </Col>
               </Row>
 
-              <Row className="justify-content-center pt-5 mb-5">
+              {/* <Row className="justify-content-center pt-5 mb-5">
                 <Col lg={8}>
                   <Accordion open={open} toggle={toggle}>
                     <AccordionItem>
@@ -66,7 +68,7 @@ const Services = () => {
                     </AccordionItem>
                   </Accordion>
                 </Col>
-              </Row>
+              </Row> */}
             </Col>
           </Row>
         </Container>

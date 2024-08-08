@@ -44,6 +44,7 @@ const Footer = () => {
             <a href="https://twitter.com/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
               &#128038; {/* Bird emoji for Twitter */}
             </a>
+            <i class="ri-twitter-x-line"></i>
             <a href="https://discord.gg/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
               &#128172; {/* Speech balloon emoji for Discord */}
             </a>
