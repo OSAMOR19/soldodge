@@ -65,20 +65,7 @@ const Home = () => {
                 >
                   more than just a "meme" It's a movement....
                 </p>
-                <div className="d-flex justify-content-center mt-3 mb-5">
-                  <Button
-                    className="btn mb-3 btn-primary"
-                    style={{ background: "#101010" }}
-                    // onClick={() =>
-                    //   document
-                    //     .getElementById("submit")
-                    //     .scrollIntoView({ behavior: "smooth" })
-                    // }
-                  >
-                    Join Waitlist{" "}
-                    <i className="ri-arrow-right-line align-middle ms-1"></i>
-                  </Button>
-                </div>
+                
                 {/* <div className="glassmorphism-container">
                   <div className="glassmorphism-item">
                     <h2>20k+</h2>
