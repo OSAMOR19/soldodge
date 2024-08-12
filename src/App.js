@@ -12,7 +12,7 @@ function App() {
     <React.Fragment>
       <MyNav/>
       <Home/>
-      <Services/>
+      {/* <Services/> */}
       <Portfolio/>
       <FAQ/>
       
