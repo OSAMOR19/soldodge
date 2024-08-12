@@ -62,7 +62,6 @@ const NavBar = () => {
               <Nav.Link href="#contact" style={navLinkStyle}>Blog</Nav.Link>
               <Nav.Link href="#faq" style={navLinkStyle}>FAQ's</Nav.Link>
             </Nav>
-            <Button color="primary" style={buttonStyle} onClick={() => document.getElementById('submit').scrollIntoView({ behavior: 'smooth' })}>Join Waitlist</Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
