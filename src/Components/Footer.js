@@ -24,10 +24,10 @@ const Footer = () => {
     alignItems: "center",
     justifyContent: "center",
     color: "#ffffff",
-    fontSize: "1.5rem",
-    width: "40px",
-    height: "40px",
-    marginRight: "15px",
+    fontSize: "2.5rem",
+    width: "70px",
+    height: "70px",
+    marginRight: "20px",
     textDecoration: "none",
     transition: "all 0.3s ease",
     borderRadius: "50%",
@@ -54,13 +54,22 @@ const Footer = () => {
             <a href="https://t.me/realsoladoge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
               <i className="ri-telegram-fill"></i>
             </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              <i className="ri-discord-fill"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              <i className="ri-instagram-fill"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              <i className="ri-facebook-fill"></i>
+            </a>
           </Col>
         </Row>
       </Container>
       <style jsx>{`
         @import url('https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css');
-        .ri-twitter-x-fill, .ri-telegram-fill {
-          font-size: 1.5rem;
+        .ri-twitter-x-fill, .ri-telegram-fill, .ri-discord-fill, .ri-instagram-fill, .ri-facebook-fill {
+          font-size: 2.5rem;
         }
         @media (hover: hover) {
           a:hover {

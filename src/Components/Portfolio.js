@@ -202,60 +202,20 @@ const Portfolio = () => {
                         className="card-title mt-3 fw-bold mb-2"
                         style={{ fontFamily: "Poppins, sans-serif" }}
                       >
-                        INSPIRATION
-                      </h3>
-                      <p
-                        className="card-text mb-3 text-muted"
-                        style={{ fontFamily: "Mulish, sans-serif" }}
-                      >
-                        SOLADOGE was inspired by a popular dog-themed meme token
-                        that did over 100,000% at ATH and $85Billion Market Cap.
-                        I'm talking about Dogecoin itself.
-                      </p>
-                    </div>
-                    <div className="mt-auto">
-                      <img
-                        className="rounded-bottom img-fluid w-100"
-                        src={img4}
-                        alt="Card"
-                        style={{ objectFit: "cover", height: "200px" }}
-                      />
-                    </div>
-                  </CardBody>
-                </Card>
-              </Fade>
-            </Col>
-
-            <Col md={6}>
-              <Fade in={open}>
-                <Card
-                  className="rounded-5 card-animate h-100"
-                  style={cardStyle}
-                  onMouseEnter={(e) => handleCardHover(e, true)}
-                  onMouseLeave={(e) => handleCardHover(e, false)}
-                >
-                  <CardBody className="d-flex flex-column">
-                    <div className="p-3">
-                      {/* <Button
-                        className="rounded-pill"
-                        style={buttonStyle}
-                        onMouseEnter={(e) => handleButtonHover(e, true)}
-                        onMouseLeave={(e) => handleButtonHover(e, false)}
-                      >
-                        Notepad
-                      </Button> */}
-                      <h3
-                        className="card-title mt-3 fw-bold mb-2"
-                        style={{ fontFamily: "Poppins, sans-serif" }}
-                      >
                         MEME TOKEN
                       </h3>
                       <p
                         className="card-text mb-3 text-muted"
                         style={{ fontFamily: "Mulish, sans-serif" }}
                       >
-                        SolaDoge is the meme token that is taking the Solana Ecosystem by Storm.
-
+                        $SOLADOGE is the native token of the SolaDoge meme
+                        ecosystem. It is a community-driven meme token that is
+                        built on the Solana Blockchain. This token is intended
+                        to bring Solana Degenerates together, spark joy and even
+                        foster a sense of belonging among token holders.
+                        Additional, $SOLADOGE Citizens that take part in our
+                        community engagement Campaigns will be rewarded and
+                        given incentives using the $SOLADOGE token.
                       </p>
                     </div>
                     <div className="mt-auto">
