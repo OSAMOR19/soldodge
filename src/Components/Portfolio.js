@@ -68,14 +68,6 @@ const Portfolio = () => {
                     <Col md={7}>
                       <CardBody>
                         <div className="p-3">
-                          <Button
-                            className="mt-2 rounded-pill"
-                            style={buttonStyle}
-                            onMouseEnter={(e) => handleButtonHover(e, true)}
-                            onMouseLeave={(e) => handleButtonHover(e, false)}
-                          >
-                            AI Mentor
-                          </Button>
                           <h4
                             className="card-title mt-3 fw-bold mb-2"
                             style={{ fontFamily: "Poppins, sans-serif" }}

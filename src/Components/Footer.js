@@ -20,11 +20,18 @@ const Footer = () => {
   };
 
   const socialLinkStyle = {
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
     color: "#ffffff",
     fontSize: "1.5rem",
-    marginRight: "20px",
+    width: "40px",
+    height: "40px",
+    marginRight: "15px",
     textDecoration: "none",
-    transition: "color 0.3s ease",
+    transition: "all 0.3s ease",
+    borderRadius: "50%",
+    background: "rgba(255, 255, 255, 0.1)",
   };
 
   const copyrightStyle = {
@@ -37,27 +44,28 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col lg={6} className="text-center text-lg-start mb-4 mb-lg-0">
-            <h2 style={logoStyle}>SOLADODGE</h2>
-            <p style={copyrightStyle}>© 2024 SOLADODGE. All rights reserved.</p>
+            <h2 style={logoStyle}>SOLADOGE</h2>
+            <p style={copyrightStyle}>© 2024 SOLADOGE. All rights reserved.</p>
           </Col>
           <Col lg={6} className="text-center text-lg-end">
-            <a href="https://twitter.com/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
-              &#128038; {/* Bird emoji for Twitter */}
+            <a href="https://x.com/realsoladoge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              <i className="ri-twitter-x-fill"></i>
             </a>
-            <i class="ri-twitter-x-line"></i>
-            <a href="https://discord.gg/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
-              &#128172; {/* Speech balloon emoji for Discord */}
-            </a>
-            <a href="https://t.me/soladodge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
-              &#9993; {/* Envelope emoji for Telegram */}
+            <a href="https://t.me/realsoladoge" target="_blank" rel="noopener noreferrer" style={socialLinkStyle}>
+              <i className="ri-telegram-fill"></i>
             </a>
           </Col>
         </Row>
       </Container>
       <style jsx>{`
+        @import url('https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css');
+        .ri-twitter-x-fill, .ri-telegram-fill {
+          font-size: 1.5rem;
+        }
         @media (hover: hover) {
           a:hover {
-            color: #4ECDC4 !important;
+            background: rgba(255, 255, 255, 0.2) !important;
+            transform: translateY(-3px);
           }
         }
       `}</style>
