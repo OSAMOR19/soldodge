@@ -149,14 +149,17 @@ const Portfolio = () => {
                         />
                       </div>
                       <Button className="rounded-pill" style={buttonStyle}>
-                        Global Access
+                        Soladodge Meme
                       </Button>
                       <p
                         className="card-text mt-2 mb-1 text-center text-muted"
                         style={{ fontFamily: "Poppins, sans-serif" }}
                       >
-                        DEEP INTEGRATIONS AS A UTILITY TOKEN ACROSS A WIDE BASE
-                        OF APPLICATIONS AND PROTOCOLS WITHIN THE WEB3 ECOSYSTEM
+                        In a world filled with countless meme coins, SolaDodge
+                        stands out by combining the fun of memes with the
+                        cutting-edge technology of Solana. We’re all about
+                        bringing the community together, spreading laughter, and
+                        of course, riding the wave of crypto innovation.
                       </p>
                     </div>
                   </CardBody>
@@ -184,7 +187,7 @@ const Portfolio = () => {
                         />
                       </div>
                       <Button className="rounded-pill" style={buttonStyle}>
-                        origin
+                        soladodge
                       </Button>
                       <p
                         className="card-text mb-1 text-center text-muted"
@@ -225,11 +228,11 @@ const Portfolio = () => {
                         className="card-text mb-1 text-center text-muted"
                         style={{ fontFamily: "Poppins, sans-serif" }}
                       >
-                        Network with high profile individuals like you and
-                        strike a deeper connection and get access to premium
-                        services like: unlimited private jet access, highly
-                        personalised travel experience, priority scheduling,
-                        empty leg prior notification, etc
+                        In a world filled with countless meme coins, SolaDodge
+                        stands out by combining the fun of memes with the
+                        cutting-edge technology of Solana. We’re all about
+                        bringing the community together, spreading laughter, and
+                        of course, riding the wave of crypto innovation.
                       </p>
                     </div>
                   </CardBody>

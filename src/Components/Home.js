@@ -79,7 +79,7 @@ const Home = () => {
                     <i className="ri-arrow-right-line align-middle ms-1"></i>
                   </Button>
                 </div>
-                <div className="glassmorphism-container">
+                {/* <div className="glassmorphism-container">
                   <div className="glassmorphism-item">
                     <h2>20k+</h2>
                     <p>Holders</p>
@@ -92,7 +92,7 @@ const Home = () => {
                     <h2>12</h2>
                     <p>Chains</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>
