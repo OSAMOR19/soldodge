@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
 import FAQ from './Components/FAQ';
+import Token from './Components/token';
 import Footer from './Components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +16,7 @@ function App() {
       {/* <Services/> */}
       <Portfolio/>
       <FAQ/>
-      
+      {/* <Token/> */}
       <Footer/>
     </React.Fragment>
   );
